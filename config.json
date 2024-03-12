@@ -1,13 +1,13 @@
 {
   "proofsEnabled": false,
   "deploy": {
-    "optimism": "XCounterUC",
-    "base": "XCounterUC"
+    "optimism": "XCounter",
+    "base": "XCounter"
   },
-  "isUniversal": true,
+  "isUniversal": false,
   "createChannel": {
     "srcChain": "optimism",
-    "srcAddr": "0x1234567890AbCdEf1234567890aBcDeF12345678",
+    "srcAddr": "0x356dF0370FC01e99C9b6b41113D0002b9d5CFf69",
     "dstChain": "base",
     "dstAddr": "0x1234567890AbCdEf1234567890aBcDeF12345678",
     "version": "1.0",
@@ -16,7 +16,7 @@
   },
   "sendPacket": {
     "optimism": {
-      "portAddr": "0x1234567890abcdef1234567890abcdef12345678",
+      "portAddr": "0x356dF0370FC01e99C9b6b41113D0002b9d5CFf69",
       "channelId": "channel-n",
       "timeout": 36000
     },
